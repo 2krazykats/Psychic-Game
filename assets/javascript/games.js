@@ -17,7 +17,7 @@ function chooseLetter() {
     var charSet = "abcdefghijklmnopqrstuvwxyz";
 
     for (var i=0; i < charSet.length; i++ ) {
-        chosenLetter += charSet.charAt(Math.floor(Math.random() * charSet.length));
+        chosenLetter = charSet.charAt(Math.floor(Math.random() * charSet.length));
 console.log(chosenLetter);
         return chosenLetter;
     }
